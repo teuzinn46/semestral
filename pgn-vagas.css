@@ -1,0 +1,30 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.barrinha{
+    font-weight: 700;
+    font-size: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    height: 200px;
+}
+.seta{
+    height: 30px;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    margi
+}
+.linha{
+    background-color: #003479;
+    height: 1.5px;
+}
