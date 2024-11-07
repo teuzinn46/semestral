@@ -15,13 +15,16 @@ header{
 header img{
     width: 200px;
     height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #azulC{
     color: #00c2cb
 }
 header h1{
-    font-size: 60px;
+    font-size: 35px;
     font-family: "bebas";
+    letter-spacing: 1px;
 }
 
 .nome{
@@ -49,6 +52,7 @@ header h1{
     padding-right: 760px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
 }
 .informacoes a{
     text-decoration: none;
@@ -62,28 +66,33 @@ header h1{
     margin-bottom: 20px;
 }
 .faca p{
-    font-size: 30px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
+    margin-bottom: 30px;
 }
 button{
     margin-top: 10px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 411px;
-    height: 60px;
-    border-radius: 50px;
-    margin-bottom: 50px;
-    font-size: 35px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
     font-weight: bold;
     color: white;
     background-color: #003479;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #00c2cb;
 }
 footer{
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
@@ -94,11 +103,39 @@ footer{
     font-size: 18px;
     color: white;
     background-color: #003479;
+    height: 200px;
+}
+footer .t{
+    margin-top: 60px;
 }
 .icons{
     padding-top: 10px;
-    letter-spacing: 15px;
+    letter-spacing: 25px;
 }
 .icons img{
-    width: 20px;
+    width: 25px;
+    height: 25px;
+    margin-top: 60px;
+}
+input{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.fixo{
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 1450px;
+    margin-right: 50px;
+    position: fixed;
+    transform: scale(1.1);
+}
+.fixo:hover{
+    transition: transform 0.5s ease;
+}
+.vol{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
 }

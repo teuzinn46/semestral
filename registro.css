@@ -33,18 +33,18 @@
         color: #00c2cb;
     }
     .quadrado p{
-       
-        font-size:  30px;
+        font-size:  20px;
         width: 510px;
         text-align: justify;
         font-family: Arial, Helvetica, sans-serif;
-        padding-bottom: 100px;
+        margin-top: 30px;
     }
 
   .imagemL{
-    width: 150px;
-    height: 150px;
-    padding-left: 1350px;
+    width: 200px;
+    height: 200px;
+    padding-left: 1470px;
+    
   }
   input{
     padding-left: 5px;
@@ -64,8 +64,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 130px;
     width: 500px;
+    margin-top: 80px;
     
   }
   .registro p{
@@ -105,10 +106,10 @@
     text-align: left;
 }
 .oi{
-margin-left: 35px;
+margin-left: 50px;
 }
 .telefone{
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 button{
