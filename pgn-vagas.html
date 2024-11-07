@@ -7,16 +7,28 @@
     <link rel="stylesheet" href="pgn-vagas.css">
 </head>
 <body>
-<header>
-    <div class="nav">
-        <img src="img-semestral/logo sem fundo.png" alt="" class="logo">
-        <img src="img-semestral/seta.png" alt="" class="seta">
-        <p class="barrinha">|</p>
-        <a href="">VAGAS</a>
-        <p class="barrinha">|</p>
-        <a href="">EMPRESAS PARCEIRAS </a>
+<header> 
+     <div class="nav">
+        <a href="index.html"><img src="img-semestral/logo sem fundo.png" alt="" class="logo" ></a>
+    
+        <a href=""><img src="img-semestral/seta.png" alt="" class="seta"> </a>
+        <p class="barrinha1">|</p>
+        <a class="vagas" href="">VAGAS</a>
+        <p class="barrinha2">|</p>
+        <a class="empr" href="">EMPRESAS PARCEIRAS </a>
     </div>
 </header>
     <div class="linha"></div>
+    <h1>Selecione a cidade desejada para a busca de vagas !</h1>
+    <form>
+        <label for="opcoes">Escolha uma opção: </label>
+        <select id="opcoes" name="opcoes">
+            <option value="opcao1">Póa</option>
+            <option value="opcao2">Suzano</option>
+            <option value="opcao3">Itaquaquecetuba</option>
+            <option value="opcao4">Ferraz de Vasconcelos</option>
+            <option value="opcao5">Mogi das Cruzes</option>
+        </select>
+    </form>
 </body>
 </html>
