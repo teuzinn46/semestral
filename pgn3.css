@@ -179,10 +179,11 @@ a .seta{
     height: 45px;
     margin-top: 20px;
     margin-left: 1450px;
+    margin-right: 50px;
     position: fixed;
-    transform: scale(1.1);
-    margin-right: 10px;
-}
-.fixo:hover{
     transition: transform 0.5s ease;
+
+}
+.fixo:hover{ 
+    transform: scale(1.1);
 }

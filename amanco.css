@@ -71,6 +71,7 @@ a .seta{
 }
 .imagem{
     text-align: center;
+    margin-right: 80px;
     justify-content: center;
     align-items: center;
 }
