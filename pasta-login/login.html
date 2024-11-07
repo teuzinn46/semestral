@@ -1,64 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="login.css" />
-  </head>
-  <body>
-    <section class="log">
-      <div class="conte">
-        <div class="quadrado">
-          <img src="img-semestral/logo sem fundo.png" alt="" class="imagemL" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+            <img src="img-semestral/logo sem fundo.png" alt="">
+            <h1>ESTAMOS FELIZES EM VE-LÔ DE NOVO NA HEAL<span id="azulC">IN</span>! <br>
+                FAÇA SEU LOGIN PARA CONTINUAR</h1>
+    </header>
+    <section class="informacoes">
 
-          <h1>Bem-vindo ao Heal<span id="azulC">in</span>!</h1>
-          <p>
-            Estamos felizes em ter você aqui. Ao se cadastrar, você está dando
-            um importante passo para encontrar as melhores oportunidades nas
-            indústrias. Nossa plataforma está pronta para conectar você a
-            empresas que valorizam talento e dedicação, com vagas que
-            impulsionam o seu crescimento profissional. Explore as
-            oportunidades, prepare-se para novas conquistas e conte com nosso
-            apoio nessa jornada!
-          </p>
-        </div>
-
-        <div class="registro">
-          <div class="dados oi">
-            <p>Nome Completo:</p>
-            <input type="text" id="nome" class="nome"  placeholder="Nome"/>
-          </div>
-          <div class="input2 dados">
-            <div class="cpf">
-              <p>CPF:</p>
-              <input type="text" class="cpfL" placeholder="000.000.000-00"  pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" maxlength="14" required />
-            </div>
-            <div class="nascimento">
-              <p class="data">Data de Nascimento</p>
-              <input type="date" class="nasciL" />
-            </div>
-          </div>
-          <div class="dados oi">
-            <p class="ema">E-mail</p>
-            <input type="email" id="nome" class="nome" placeholder="healin@gmail.com" />
-          </div>
-          <div class="telefone">
-            <p class="ema">Telefone:</p>
-            <input type="tel" id="nome" class="nome" placeholder="(11) 91234-5678" pattern="\(\d{2}\) \d{5}-\d{4}"  maxlength="11" required/>
-          </div>
-          <div class="telefone">
-            <p class="ema">Senha:</p>
-            <input type="password" id="nome" class="nome" placeholder="Senha"/>
-          </div> 
-          
-          <button>Concluir Cadastro</button>
-
-        
-        </div>
-      </div>
-
-
+           <div class="nome">
+                <p>Nome *</p>
+                <input type="text">
+           </div>
+           
+           <div class="nome">
+            <p>Senha *</p>
+            <input type="password">
+       </div>
+             <div class="faca">
+                <p>Não tem login?Faça seu  <a href="registro.css" class="a">Registro</a></h2>
+             </div>
+                <button onclick="">
+                    ENTRAR
+                </button>
     </section>
-  </body>
+
+    <footer>
+        <div>Endereço matriz: av. paulista , 1500 - Jardim paulista - São Paulo - CEP  01310-930 <br>Telefone: (11) 96702-5459 <br>E-mail: healin.contato@gmail.com <br>© 2024 [healin]. Todos os direitos reservados.</div>
+        <div class="icons">
+            <img src="img-semestral/instagram (6).png" alt="instagram">
+            <img src="img-semestral/facebook (2).png" alt="facebook">
+            <img src="img-semestral/whatsapp (1).png" alt="wats">
+        </div>
+    </footer>
+</body>
 </html>

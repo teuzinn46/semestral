@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+@font-face {
+    font-family: "bebas";
+    src: url(fonte/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: "poppins";
+    src: url(fonte/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "open";
+    src: url(fonte/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "regular";
+    src: url(fonte/OpenSans-Regular.ttf);
+}
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+header img{
+    width: 160px;
+    height: 160px;
+}
+.linha-vertical {
+    width: 2px;
+    height: 15px; /* Ajuste o tamanho conforme necessário */
+    background-color: #000;
+    border: none;
+    padding-top: 25px;
+    margin-top: 14px;
+    transform: rotate(180deg);
+}
+.empresas{
+    display: flex;
+    padding-right: 50px;
+ }
+ .empresas p{
+    margin: 20px;
+    font-family:"bebas";
+    font-size: 30px;
+}
+.linha{
+    background-color: #003479;
+    height: 1px;
+}
+.imagem{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.imagem img{
+    width: 15%;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+.descricao{
+    padding-top: 30px;
+    padding-left: 170px;
+}
+h1{
+    font-size: 28px;
+    font-family: "poppins";
+}
+.descricao h6{
+    font-size: 20px;
+    font-family: "poppins";
+    color: #878484;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.descricao p{
+    font-family: "open";
+    font-size: 24px;
+    color: #878484;;
+}
+.preto{
+    color: #000;
+}
+.local {
+    padding-top: px;
+    display: flex;
+    font-size: 14px;
+    font-family: "open";
+}
+.local img{
+    padding-right: 7px;
+    width:22px;
+    height: 25px;
+}
+.interesse{
+    margin-top: 260px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.interesse h2{
+    font-family: "regular";
+    font-size: 25px;
+}
+.imagem{
+    display: flex;
+}
+.preenche{
+    border: solid black 1px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 530px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.preenche input{
+width: 537px;
+height: 41px;
+border-radius: 10px;
+border:solid black 1px;
+}
+.inputs{
+    padding-top: 20px;
+}

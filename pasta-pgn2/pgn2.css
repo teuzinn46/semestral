@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "bebas";
+    src: url(fonte/BebasNeue-Regular.ttf);
+}
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+header img{
+    width: 160px;
+    height: 160px;
+   
+}
+.empresas{
+   display: flex;
+   padding-right: 50px;
+}
+.empresas p{
+    margin: 20px;
+    font-family:"bebas";
+    font-size: 30px;
+    
+
+}
+.linha-vertical {
+    width: 2px;
+    height: 15px; /* Ajuste o tamanho conforme necessário */
+    background-color: #000;
+    border: none;
+    padding-top: 25px;
+    margin-top: 14px;
+    transform: rotate(180deg);
+}
+.linha{
+    background-color: #003479;
+    height: 1px;
+}
+.estamos {
+    margin-top: 60px;
+    margin-left: 200px;
+    width: 1000px;
+    text-align: justify;
+}
+.estamos p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.princi{
+    padding-top: 100px;
+}
+
+.container{
+    margin-top: 5%;
+    padding-top: 10px;
+}
+.flex{
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: solid black 1px;
+    border-radius: 10px;
+    height: 350px;
+}
+.flex img{
+    height: 20px;
+}
+.textos{
+    text-align: justify;
+    width: 650px;
+   margin-top: 30px;
+   margin-left: 80px;
+   padding-right: 40px;
+   margin-bottom: 30px;
+}
+.textos h2{
+    font-family: "bebas";
+    font-size: 25px;
+    padding-top: 25px;
+}
+.textos p{
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+}
+.flex img{
+    padding-top: 70px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 200px;
+    padding-left: 60px;
+    
+}
+.espaco{
+    margin-top: 130px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 200px;
+    padding-left: 180px;
+    font-family: "bebas";
+    font-size: 18px;
+    color: white;
+    background-color: #003479;
+}
+.espaco2{
+    margin-top: 180px;
+}
+.icons{
+    padding-top: 10px;
+    letter-spacing: 15px;
+}
+.icons img{
+    width: 20px;
+}

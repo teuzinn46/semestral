@@ -1,124 +1,104 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     border: 0;
 }
-    @font-face {
-        font-family: "bebas";
-        src: url(fonte/BebasNeue-Regular.ttf);
-    }
-  
+@font-face {
+    font-family: "bebas";
+    src: url(fonte/BebasNeue-Regular.ttf);
+}
+header{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    width: 200px;
+    height: 200px;
+}
+#azulC{
+    color: #00c2cb
+}
+header h1{
+    font-size: 60px;
+    font-family: "bebas";
+}
 
-    .quadrado{
-        justify-items: center;
-        text-align: center;
-        align-items: center;
-        background-color: #003479;
-        color: white;
-        width: 50%;
-        height: 800px;
-        position: relative;
-    }
-    .quadrado h1{
-        font-family: "bebas";
-        font-size: 60px;
-     
-        font-weight: bold;
-        letter-spacing: 1px;
-    }
-    #azulC{
-        color: #00c2cb;
-    }
-    .quadrado p{
-       
-        font-size:  30px;
-        width: 510px;
-        text-align: justify;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-bottom: 100px;
-    }
+.nome{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
 
-  .imagemL{
-    width: 150px;
-    height: 150px;
-    padding-left: 1550px;
-  }
-  input{
-    padding-left: 5px;
-    height: 30px;
+
+}
+.informacoes{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.informacoes input{
     border: solid black 1px;
-    border-radius: 5px;
+    border-radius: 6px;
     padding-top: 5px;
-    width: 500px;
-    justify-content: center;
-    align-items: center;
-  }
-  .conte{
-   display: flex;
-  }
-  .registro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 150px;
-    width: 490px;
-  }
-  .registro p{
-    font-family: sans-serif;
-    padding-bottom: 10px;
-    font-size: 20px;
+    width: 850px;
+    height: 40px;
+}
+.nome p{
+    font-size: 25px;
+    padding-right: 760px;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  .input2{
-    display: flex;
-    padding-top: 30px;
-    justify-content: space-between;
-   
-  }
-  .nome{
-    margin-right: 50px;
-    width: 510px;
-  }
-  .cpf{
-    width: 310px;
-    height: 30px;
-  }
-  .cpfL{
-    width: 200px;
-  }
-  .nasciL{
-    width: 200px;
-  }
-  
-
-.ema{
-    padding-top: 20px;
-  margin-right:  130px;
 }
-
-.dados{
-    text-align: left;
+.informacoes a{
+    text-decoration: none;
+    color: #003479;
 }
-.oi{
-margin-left: 35px;
+.faca{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 20px;
 }
-.telefone{
-    margin-left: 30px;
+.faca p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
-
 button{
-    margin-top: 30px;
-    padding: 10px 20px;
-    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 411px;
+    height: 60px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: bold;
     color: white;
     background-color: #003479;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
 }
-
-button:hover {
-    background-color: #00c2cb;
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 200px;
+    padding-left: 180px;
+    font-family: "bebas";
+    font-size: 18px;
+    color: white;
+    background-color: #003479;
+}
+.icons{
+    padding-top: 10px;
+    letter-spacing: 15px;
+}
+.icons img{
+    width: 20px;
 }
