@@ -1,18 +1,18 @@
-document.querySelector(".select-selected").addEventListener("click", function() {
-    this.nextElementSibling.classList.toggle("show");
-});
+/* Função para abrir e fechar o dropdown */
+function toggleDropdown() {
+    const dropdown = document.querySelector('.dropdown');
+    dropdown.classList.toggle('show'); // Alterna a classe 'show' para abrir/fechar o dropdown
+}
 
-document.querySelectorAll(".select-items div").forEach(item => {
-    item.addEventListener("click", function() {
-        document.querySelector(".select-selected").innerText = this.innerText;
-        this.parentElement.classList.remove("show");
-    });
-});
-
-window.addEventListener("click", function(e) {
-    if (!e.target.matches('.select-selected')) {
-        document.querySelectorAll(".select-items").forEach(dropdown => {
-            dropdown.classList.remove("show");
-        });
+/* Fecha o dropdown se clicar fora dele */
+window.onclick = function(event) {
+    if (!event.target.matches('.dropdown-button')) {
+        const dropdowns = document.getElementsByClassName("dropdown");
+        for (let i = 0; i < dropdowns.length; i++) {
+            const openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
     }
-});
+}
