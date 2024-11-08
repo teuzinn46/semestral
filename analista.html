@@ -8,16 +8,18 @@
 <body>
     <link rel="stylesheet" href="analista.css">
     <header>
-
-        <img src="img-semestral/logo sem fundo.png" alt="">
-        <div class="empresas">
-            <p>VAGAS</p>
-             <div>  <hr class="linha-vertical">    </div> 
-            <p>EMPRESAS PARCEIRAS</p>
-        </div>
+        <img src="img-semestral/logo sem fundo.png" alt="logo healin">
+        <nav>
+            <div class="empresas">
+                <a href=""><img src="img-semestral/seta (1).png" alt="voltar" class="seta"></a>
+              <div>  <hr class="linha-vertical">    </div>
+              <a href=""><p>VAGAS</p> </a>
+                 <div>  <hr class="linha-vertical">    </div>
+              <a href="pgn3.html"> <p>EMPRESAS PARCEIRAS</p> </a>
+            </div>
+        </nav>
     </header>
     <div class="linha"></div>
-    
     <section class="emprego">
         <div class="imagem">
             <img src="img-semestral/Gerdau_logo_2011.svg_-removebg-preview 2.png" alt="">
@@ -39,36 +41,36 @@
         <div class="interesse">
  <h2>Em caso de interesse, preencha os campos com as suas informações</h2>
         </div>
-
-         <div class="container">
-
-               <div class="inputs">
-                    <p>Nome Completo:</p>
-                    <input type="text">
-
-               </div>
-
-               <div class="logo">
-                <img src="img-semestral/Blue Flat Illustrative Finance Company Logo.jpg" alt="" >
-
-                        <div class="espaco"></div>
-
-                        <div class="grafico">
-                            <img src="img-semestral/pexels-goumbik-590016 1.png" alt="" class="grafico">
-                        </div>
+   
+        <div class="container">
+            <form class="formulario">
+               <label for="nome">Nome Completo:</label>   
+                <input type="text" id="nome" name="nome" required>
+             <div class="flex">
+                <div class="email">
+              <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                </div>
+             
+                 <div class="tele">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            </div>
+    </div>
+                <label for="curriculo">Anexar Currículo:</label>
+                <input type="file" id="curriculo" name="curriculo" required>
+    
+                <label for="importancia">O que considera importante numa empresa?</label>
+                <textarea id="importancia" name="importancia" rows="4" required></textarea>
+    
+                <button type="submit">Enviar</button>
+            </form>
                 
-               </div>
-
-
-
-
-         </div>
-
-
-
-
-
-
+            <div class="folha">
+                <img src="img-semestral/pexels-goumbik-590016 1.png"Imagem de gráficos e documentos">
+            </div>
+        </div>
+        
           
         
     </section>
