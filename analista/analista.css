@@ -107,23 +107,22 @@ h1{
     font-family: "regular";
     font-size: 25px;
 }
-.imagem{
+.container{
     display: flex;
-}
-.preenche{
     border: solid black 1px;
-    margin-left: 30px;
-    margin-right: 30px;
-    height: 530px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-.preenche input{
-width: 537px;
-height: 41px;
-border-radius: 10px;
-border:solid black 1px;
+.logo{
+    padding-left: 600px;
+    height: 700px;
+    
+
 }
-.inputs{
-    padding-top: 20px;
+.logo img{
+    width: 150px;
+    height: 150px;
+    padding-left: 400px;
+}
+.grafico img{
+    height: 400px;
+    width: 450px;
 }
