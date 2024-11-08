@@ -74,7 +74,6 @@ a .seta{
 }
 .imagem{
     text-align: center;
-    margin-right: 70px;
     justify-content: center;
     align-items: center;
 }
@@ -93,7 +92,6 @@ a .seta{
     border-radius: 10px;
     height: 260px;
     transition: transform 0.5s ease;
-    
 }
 .informar:hover{
     transform: scale(1.02);
@@ -142,9 +140,9 @@ footer{
     background-color: #003479;
 }
 .icons{
+    margin-bottom: 60px;
     padding-top: 10px;
     letter-spacing: 15px;
-    margin-bottom: 60px;
 }
 .icons img{
     width: 20px;
