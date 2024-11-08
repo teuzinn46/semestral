@@ -18,17 +18,8 @@ header img{
     height: 160px;
    
 }
-.empresas{
-   display: flex;
-   padding-right: 50px;
-}
-.empresas p{
-    margin: 20px;
-    font-family:"bebas";
-    font-size: 30px;
-    
 
-}
+
 .linha-vertical {
     width: 2px;
     height: 15px; /* Ajuste o tamanho conforme necessário */
