@@ -93,6 +93,10 @@ a .seta{
     margin-top: 50px;
     margin-left: 500px; 
     border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+.gm:hover{
+    transform: scale(1.02);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 .gm img{
@@ -121,6 +125,10 @@ a .seta{
     margin-top: 50px;
     margin-left: 500px; 
     border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+.gerdau:hover{
+    transform: scale(1.02);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 .gerdau img{
