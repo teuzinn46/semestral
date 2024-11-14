@@ -3,6 +3,9 @@
     padding: 0;
     border: 0;
 }
+body{
+  overflow-x: hidden;
+}
     @font-face {
         font-family: "bebas";
         src: url(fonte/BebasNeue-Regular.ttf);
@@ -187,4 +190,21 @@ nav a{
 }
 nav a:hover{
   transform: scale(1.1);
+}
+.vol{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  position: absolute;
+  left: 1045px;
+  top: 770px;
+  color: #000;
+}
+.volt a {
+  text-decoration: none;
+  transition: transform 0.5s ease; 
+}
+
+.volt a:hover {
+  transform: scale(1.5); 
+  color: #b6b2b2;
 }
