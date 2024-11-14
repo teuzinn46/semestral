@@ -93,6 +93,10 @@ a .seta{
     margin-top: 50px;
     margin-left: 500px; 
     border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+.embu:hover{
+    transform: scale(1.02);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 .embu img{
@@ -120,6 +124,10 @@ a .seta{
     margin-top: 50px;
     margin-left: 500px; 
     border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+.papel:hover{
+    transform: scale(1.02);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 .papel img{
@@ -161,4 +169,17 @@ footer{
 }
 .icons img{
     width: 20px;
+}
+.fixo{
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 1450px;
+    margin-right: 50px;
+    position: fixed;
+    transition: transform 0.5s ease;
+
+}
+.fixo:hover{ 
+    transform: scale(1.1);
 }
