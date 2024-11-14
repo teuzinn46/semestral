@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="analista.js" defer></script>
+    <script src= "https://dashboard.emailjs.com/"></script>
+   <script src="https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script>
+
 </head>
 <body>
+    
     <link rel="stylesheet" href="analista.css">
     <header>
         <img src="img-semestral/logo sem fundo.png" alt="logo healin">
@@ -41,13 +47,17 @@
         <div class="interesse">
  <h2>Em caso de interesse, preencha os campos com as suas informações</h2>
         </div>
-   
+        
         <div class="container">
-            <form class="formulario">
+           
+            <form class="formulario" onsubmit="sendMail(event)">
+
                <label for="nome">Nome Completo:</label>   
                 <input type="text" id="nome" name="nome" required>
+
              <div class="flex">
                 <div class="email">
+
               <label for="email">E-mail:</label>
                 <input type="email" id="email" name="email" required>
                 </div>
@@ -58,7 +68,7 @@
             </div>
     </div>
                 <label for="curriculo">Anexar Currículo:</label>
-                <input type="file" id="curriculo" name="curriculo" required>
+                <input type="file" id="arquivo" name="arquivo" required>
     
                 <label for="importancia">O que considera importante numa empresa?</label>
                 <textarea id="importancia" name="importancia" rows="4" required></textarea>
@@ -71,8 +81,16 @@
             </div>
         </div>
         
-          
-        
     </section>
+
+    <div class="espaco"></div>
+    <footer>
+        <div>Endereço matriz: av. paulista , 1500 - Jardim paulista - São Paulo - CEP  01310-930 <br>Telefone: (11) 96702-5459 <br>E-mail: healin.contato@gmail.com <br>© 2024 [healin]. Todos os direitos reservados.</div>
+        <div class="icons">
+            <img src="img-semestral/instagram.png" alt="instagram">
+            <img src="img-semestral/facebook (2).png" alt="facebook">
+            
+        </div>
+    </footer>
 </body>
 </html>
