@@ -3,6 +3,10 @@
     border: 0;
     margin: 0;
 }
+body{
+    overflow-x: hidden;
+}
+
 @font-face {
     font-family: "bebas";
     src: url(fonte/BebasNeue-Regular.ttf);
@@ -31,10 +35,6 @@ nav a{
 nav a:hover{
     transform: scale(1.1);
 }
-
-
-
-
 .empresas{
    display: flex;
    padding-right: 50px;
@@ -61,7 +61,7 @@ nav a:hover{
 }
 .estamos {
     margin-top: 60px;
-    margin-left: 250px;
+    margin-left: 260px;
     width: 1000px;
     text-align: justify;
 }
@@ -89,8 +89,8 @@ a .seta{
 .flex{
     box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     border: solid black 1px;
     border-radius: 10px;
     height: 350px;

@@ -3,6 +3,9 @@
     margin: 0;
     border: 0;
 }
+body{
+    overflow-x: hidden;
+}
 @font-face {
     font-family: "bebas";
     src: url(fonte/BebasNeue-Regular.ttf);
@@ -121,19 +124,7 @@ input{
     font-size: 20px;
     padding-left: 10px;
 }
-.fixo{
-    width: 45px;
-    height: 45px;
-    margin-top: 20px;
-    margin-left: 1450px;
-    margin-right: 50px;
-    position: fixed;
-    transition: transform 0.5s ease;
 
-}
-.fixo:hover{ 
-    transform: scale(1.1);
-}
 .vol{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;

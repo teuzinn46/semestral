@@ -3,6 +3,9 @@
     padding: 0;
     border: 0;
 }
+body{
+  overflow-x: hidden;
+}
     @font-face {
         font-family: "bebas";
         src: url(fonte/BebasNeue-Regular.ttf);
