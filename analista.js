@@ -1,51 +1,48 @@
 // Inicialize o EmailJS com sua chave de usuário
 (function() {
-    emailjs.init(rI2Ll_wfpPUtynsda); // chave de usuário fornecida
+    emailjs.init("rI2Ll_wfpPUtynsda"); // Substitua pela sua chave do EmailJS
   })();
   
-  // Inicialize o FileStack com sua chave de API
-  const filestackClient = filestack.init(ACwduUjnITP2K7XUmTau6z);
-  
   function sendMail(event) {
-    event.preventDefault(); // Evita o envio padrão do formulário
+    event.preventDefault(); // Impede o envio padrão do formulário
   
-    // Obter o formulário e os dados do usuário
     const form = document.getElementById('contactForm');
     const formData = new FormData(form);
   
-    // Obter o arquivo selecionado
-    const fileInput = document.getElementById('arquivo').files[0];
+    // Obtém o arquivo do input
+    const fileInput = document.getElementById('curriculo').files[0];
   
-    // Verificar se um arquivo foi selecionado
-    if (!fileInput) {
-      alert("Por favor, selecione um arquivo para enviar.");
-      return;
-    }
+    // Carregar o arquivo usando base64 para enviá-lo pelo EmailJS
+    const reader = new FileReader();
+    reader.readAsDataURL(fileInput);
+    reader.onload = function() {
+      const fileData = reader.result.split(',')[1]; // Remove o prefixo data
   
-    // Fazer o upload do arquivo para o FileStack
-    filestackClient.upload(fileInput)
-      .then(response => {
-        const fileUrl = response.url; // URL do arquivo hospedado no FileStack
+      // Dados para enviar com o EmailJS
+      const data = {
+        nome: formData.get('nome'),
+        email: formData.get('email'),
+        telefone: formData.get('telefone'),
+        importancia: formData.get('importancia'),
+        curriculo: fileData,
+        curriculo_nome: fileInput.name
+      };
   
-        // Dados para envio com o EmailJS
-        const data = {
-          nome: formData.get('nome'),
-          email: formData.get('email'),
-          telefone: formData.get('telefone'),
-          importancia: formData.get('importancia'),
-          arquivo_url: fileUrl // URL do arquivo enviado
-        };
+      // Envio do e-mail pelo EmailJS
+      emailjs.send("healin", "healin_modelo", data)
+        .then(response => {
+          document.getElementById('result').innerText = "E-mail enviado com sucesso!";
+          console.log("E-mail enviado", response);
+        })
+        .catch(error => {
+          document.getElementById('result').innerText = "Erro ao enviar e-mail.";
+          console.error("Erro", error);
+        });
+    };
   
-        // Enviar o formulário via EmailJS
-        return emailjs.send(healin, template_healin, data);
-      })
-      .then(response => {
-        alert("E-mail enviado com sucesso!");
-        console.log("E-mail enviado", response);
-      })
-      .catch(error => {
-        alert("Erro ao enviar e-mail ou fazer upload do arquivo!");
-        console.log("Erro", error);
-      });
+    reader.onerror = function(error) {
+      console.error("Erro ao ler o arquivo:", error);
+      alert("Erro ao ler o arquivo.");
+    };
   }
   
