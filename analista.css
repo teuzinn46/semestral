@@ -91,6 +91,7 @@ a .seta{
     aspect-ratio: 4/3;
     object-fit: contain;
     mix-blend-mode: color-burn;
+    margin-top: 50px;
 }
 .descricao{
     padding-top: 30px;
@@ -248,14 +249,33 @@ footer{
 .forms{
     text-align: center;
     margin-top: 80px;
+    margin-left: 50px;
 }
 .forms a{
     font-family: Arial, Helvetica, sans-serif;
+
 }
 span{
     color: #003479;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+    transition: font-size 0.3s ease;
+}
+span:hover{
+    font-size: 17px; 
+}
+.fixo{
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 1288px;
+    margin-right: 50px;
+    position: fixed;
+    transition: transform 0.5s ease;
+
+}
+.fixo:hover{ 
+    transform: scale(1.1);
 }
 
 
