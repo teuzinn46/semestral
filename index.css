@@ -22,7 +22,7 @@ html {
 }
 .container2{
     display: flex;
-    margin-bottom: 200px;
+    
 }
 .curiosidades{
     display: flex;
@@ -54,10 +54,13 @@ html {
 }
 .container3{
     display: flex;
+    margin-top: 200px;
+    margin-bottom: 150px;
 }
 .perguntas{
     display: flex;
     flex-direction: column;
+    margin-top: 130px;
 }
 footer{
     margin-top: 80px;
@@ -270,11 +273,30 @@ nav{
 .imgApoio{
     margin-left: 100px;
 }
-.flex2 div h3{
+.flex2 h3{
     font-family: "bebas";
+    font-size: 30px;
+    margin-bottom: 10px;
 }
-.flex2{
-    margin-right: 100px;
+.flex2 p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    margin-bottom: 30px;
 }
+.perguntas{
+    margin-left: 200px;
+}
+.imgDuvida{
+    margin-left: 200px;
+    margin-right: 300px;
+}
+.imgDuvida h2{
+    font-family: "bebas";
+    font-size: 35px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
 
 

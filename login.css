@@ -22,8 +22,7 @@ header{
 }
 .pgn-clique img{
     width: 120px;
-    height: 120px;
-    margin-left: 50px;
+    height: 140px;
     margin-top: 50px;
 }
 #azulC{
@@ -33,6 +32,7 @@ header h1{
     font-size: 35px;
     font-family: "bebas";
     letter-spacing: 1px;
+    margin-top: 50px;
 }
 
 .nome{
@@ -148,7 +148,7 @@ input{
     width: 45px;
     height: 45px;
     margin-top: 50px;
-    margin-left: 1440px;
+    margin-left: 1450px;
     margin-right: 50px;
     position: fixed;
     transition: transform 0.5s ease;
