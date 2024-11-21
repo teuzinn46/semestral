@@ -43,12 +43,15 @@ body{
         margin-top: 30px;
     }
 
-  .imagemL{
-    width: 200px;
-    height: 200px;
-    padding-left: 1470px;
-    
-    
+    .pgn-clique{
+      width: 200px;
+      height: 200px;
+  }
+  .pgn-clique img{
+      width: 120px;
+      height: 120px;
+      margin-left: 1470px;
+      margin-top: 50px;
   }
   input{
     padding-left: 5px;

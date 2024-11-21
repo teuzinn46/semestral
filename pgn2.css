@@ -17,10 +17,15 @@ header{
     text-align: center;
     justify-content: space-between;
 }
-.clique-inicial img{
+.pgn-clique{
     width: 200px;
     height: 200px;
+}
+.pgn-clique img{
+    width: 120px;
+    height: 120px;
     margin-left: 50px;
+    margin-top: 50px;
 }
 nav{
     transform: scale(1.3);
