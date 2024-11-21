@@ -43,6 +43,7 @@ body{
         margin-top: 30px;
     }
 
+<<<<<<< HEAD
     .pgn-clique{
       width: 200px;
       height: 200px;
@@ -52,6 +53,13 @@ body{
       height: 120px;
       margin-left: 1470px;
       margin-top: 50px;
+=======
+  .imagemL{
+    width: 1000px;
+    height: 100px;
+    padding-left: 870px;
+    
+>>>>>>> 44852cc198b90ea2a52b058a6eaf82351532e9fe
   }
   input{
     padding-left: 5px;
