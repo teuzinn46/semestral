@@ -16,11 +16,10 @@ header{
     justify-content: center;
     align-items: center;
 }
-header img{
+.clique-inicial img{
     width: 200px;
     height: 200px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: 50px;
 }
 #azulC{
     color: #00c2cb

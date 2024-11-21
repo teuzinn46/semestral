@@ -192,4 +192,9 @@ nav a:hover{
 .fixo:hover{ 
   transform: scale(1.1);
 }
+.clique-inicial img{
+  width: 200px;
+  height: 200px;
+  margin-left: 1500px;
+}
 
