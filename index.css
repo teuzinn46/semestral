@@ -4,14 +4,17 @@
     padding: 0;
 }
 body{
-    overflow-x: hidden;
+   overflow-x: hidden; 
 }
 @font-face {
     font-family: "bebas";
     src: url(fonte/BebasNeue-Regular.ttf);
 }
+html {
+    scroll-behavior: smooth;
+  }
 .imagens{
-    width: 15%;
+    width: 10%;
     aspect-ratio: 4/3;
     object-fit: contain;
     mix-blend-mode: color-burn;
@@ -23,9 +26,25 @@ body{
 .curiosidades{
     display: flex;
     flex-direction: column;
+    margin-right: 300px;
+}
+.texto h3{
+    font-family: "bebas";
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.texto p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 .flex{
     display: flex;
+}
+.flex img{
+    margin-top: 15px;
+    margin-right: 10px;
 }
 .container3{
     display: flex;
@@ -61,16 +80,17 @@ footer .t{
     margin-top: 60px;
 }
 .imgEntrevista img{
-    width: 25%;
+    width: 80%;
     aspect-ratio: 4/3;
     object-fit: contain;
     mix-blend-mode: color-burn;
+    margin-left: 100px;
+    margin-top: 90px;
+    border-radius: 50px;
 }
 .imgApoio img{
-    width: 45%;
-    aspect-ratio: 4/3;
-    object-fit: contain;
-    mix-blend-mode: color-burn;
+    width: 600px;
+    
 }
 .icon1 img{
     width: 30px;
@@ -84,3 +104,163 @@ footer .t{
     width: 30px;
     height: 30px;
 }
+header{
+   display: flex;
+}
+header::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('img-semestral/Design\ sem\ nome\ \(1\).png') no-repeat center/cover;
+    filter: brightness(95%) sepia(0.3) hue-rotate(210deg) saturate(80%);
+    opacity: 0.3; 
+    z-index: -1; 
+}
+nav{
+    display: flex;
+    margin-top: 90px;
+    margin-left: 720px;
+    gap: 35px;
+    
+}
+.linha-vertical {
+    width: 2px;
+    height: 15px; 
+    background-color: #000;
+    border: none;
+    padding-top: 25px;
+    margin-top: 2px;
+    transform: rotate(180deg);
+}
+.navegacao a{
+    font-family: "bebas";
+    font-size: 35px;
+    text-decoration: none;
+    color: #000;
+}
+.logoT p{
+   font-family: "bebas";
+   font-size: 20px;
+   letter-spacing: 1px;
+}
+.logoT{
+    margin-left: 80px;
+    margin-top: 230px;
+}
+.logoT img{
+    width: 80%;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    margin-left: 35px;
+}
+.azulC{
+    color: #00C2CB;
+}
+.azulE{
+    color: #003479;
+}
+#sobre{
+    margin-top: 300px;
+    font-family: "bebas";
+   letter-spacing: 2px;
+   text-align: center;
+   margin-bottom: 40px;
+   font-size: 35px;
+}
+#um{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 1000px;
+    margin-left: 250px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+#dois{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 1000px;
+    margin-left: 250px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.melhoresE h1{
+    font-family: "bebas";
+    letter-spacing: 1px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 130px;
+}
+.local{
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 5px;
+    margin-right: 120px;
+}
+.local img{
+   margin-left: 100px;
+}
+.container{
+    display: flex;
+    width: 1200px;
+    height: 410px;
+    margin-top: 90px;
+    border-radius: 10px;
+    box-shadow:
+        -10px -10px 10px rgba(0, 0, 0, 0.05), 
+         10px -10px 10px rgba(0, 0, 0, 0.05),
+        -10px  10px 10px rgba(0, 0, 0, 0.05),  
+         10px  10px 10px rgba(0, 0, 0, 0.05);  
+    margin-left: 160px;
+    margin-bottom: 200px;
+    transition: transform 0.5s ease;
+}
+.container:hover{
+    transform: scale(1.01);
+}
+.eficiencia{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.eficiencia h2{
+    font-family: "bebas";
+    font-size: 25px;
+    padding-right: 200px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+.eficiencia p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.trechoEntrevista{
+   margin-right: 100px;
+   border: solid black 1px;
+   border-radius: 10px;
+   height: 300px;
+   background-color: white;
+   margin-top: 50px;
+   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+.trechoEntrevista p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 35px;
+}
+.imgApoio h2{
+    font-family: "bebas";
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+.imgApoio{
+    margin-left: 100px;
+}
+
+
