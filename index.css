@@ -27,7 +27,7 @@ html {
 .curiosidades{
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-right: 100px;
     margin-top: 30px;
 }
@@ -54,13 +54,15 @@ html {
 }
 .container3{
     display: flex;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 150px;
+    
 }
 .perguntas{
     display: flex;
     flex-direction: column;
     margin-top: 130px;
+    margin-left: 10px;
 }
 footer{
     margin-top: 80px;
@@ -84,8 +86,8 @@ footer .t{
     letter-spacing: 25px;
 }
 .icons img{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     margin-top: 60px;
 }
 .imgEntrevista img{
@@ -131,7 +133,7 @@ header::before{
 nav{
     display: flex;
     margin-top: 90px;
-    margin-left: 880px;
+    margin-left: 700px;
     gap: 35px;
     
 }
@@ -184,7 +186,7 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     width: 1000px;
-    margin-left: 350px;
+    margin-left: 270px;
     text-align: justify;
     margin-bottom: 50px;
 }
@@ -192,7 +194,7 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     width: 1000px;
-    margin-left: 350px;
+    margin-left: 270px;
     text-align: justify;
     margin-bottom: 50px;
 }
@@ -223,8 +225,8 @@ nav{
          10px -10px 10px rgba(0, 0, 0, 0.05),
         -10px  10px 10px rgba(0, 0, 0, 0.05),  
          10px  10px 10px rgba(0, 0, 0, 0.05);  
-    margin-left: 245px;
-    margin-bottom: 200px;
+    margin-left: 160px;
+    margin-bottom: 150px;
     transition: transform 0.5s ease;
 }
 .container:hover{
@@ -271,7 +273,7 @@ nav{
     font-size: 35px;
 }
 .imgApoio{
-    margin-left: 100px;
+    margin-left: 140px;
 }
 .flex2 h3{
     font-family: "bebas";
@@ -288,8 +290,8 @@ nav{
     margin-left: 200px;
 }
 .imgDuvida{
-    margin-left: 200px;
-    margin-right: 300px;
+    margin-left: 50px;
+    margin-right: 600px;
 }
 .imgDuvida h2{
     font-family: "bebas";
@@ -297,6 +299,23 @@ nav{
     margin-bottom: 20px;
     letter-spacing: 1px;
 }
+.navegacao a{
+    transition: transform 0.5s ease;
+}
+.navegacao a:hover{
+    transform: scale(1.1);
+}
 
+.politica{
+    height: 20px;
+    background-color: #bcbcbc;
+    margin-bottom: 0%;
+}
+.poli{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 700px;
+}
 
 

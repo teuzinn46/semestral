@@ -3,19 +3,13 @@
     margin: 0;
     border: 0;
 }
-body{
-    overflow-x: hidden;
 
-}
 @font-face {
     font-family: "bebas";
     src: url(fonte/BebasNeue-Regular.ttf);
 }
-header{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+
+
 .pgn-clique{
     width: 200px;
     height: 200px;
@@ -28,94 +22,7 @@ header{
 #azulC{
     color: #00c2cb
 }
-header h1{
-    font-size: 35px;
-    font-family: "bebas";
-    letter-spacing: 1px;
-    margin-top: 50px;
-}
 
-.nome{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding-top: 50px;
-
-
-}
-.informacoes{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-.informacoes input{
-    border: solid black 1px;
-    border-radius: 6px;
-    padding-top: 5px;
-    width: 850px;
-    height: 40px;
-}
-.nome p{
-    font-size: 25px;
-    padding-right: 760px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 10px;
-}
-.informacoes a{
-    text-decoration: none;
-    color: #003479;
-}
-.faca{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding-top: 50px;
-    margin-bottom: 20px;
-}
-.faca p{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-}
-button{
-    margin-top: 10px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 40px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
-    background-color: #003479;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: background-color 0.3s ease;
-}
-button:hover{
-    background-color: #00c2cb;
-}
-footer{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 200px;
-    padding-left: 180px;
-    font-family: "bebas";
-    font-size: 18px;
-    color: white;
-    background-color: #003479;
-    height: 200px;
-}
-footer .t{
-    margin-top: 60px;
-}
 .icons{
     padding-top: 10px;
     letter-spacing: 25px;
@@ -125,15 +32,13 @@ footer .t{
     height: 25px;
     margin-top: 60px;
 }
-input{
-    font-size: 20px;
-    padding-left: 10px;
-}
 
 .vol{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    text-align: center; 
+    margin-top: 10px;
+  
+
 }
 .volt a {
     text-decoration: none;
@@ -142,6 +47,7 @@ input{
 }
 
 .volt a:hover {
+    color: #8f8c8c;
     transform: scale(1.5); 
 }
 .fixo{
@@ -156,3 +62,102 @@ input{
   .fixo:hover{ 
     transform: scale(1.1);
   }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 190px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    color: #666;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003479;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 12px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00c2cb;
+}
+
+#message {
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+}
+.position{
+    margin-top: 25px;
+}
+.fixo{
+    width: 45px;
+    height: 45px;
+    margin-top: 0px;
+    margin-left: 980px;
+    margin-right: 50px;
+    position: fixed;
+    transition: transform 0.5s ease;
+
+}
+.fixo:hover{ 
+    transform: scale(1.1);
+}
+.logoH{
+   
+    width: 130px;
+    height: 155px;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+
+}
+.textL{
+    position: absolute;
+    top: 215px;
+    font-family: "bebas";
+    font-size: 25px;
+}
+

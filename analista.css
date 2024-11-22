@@ -167,69 +167,7 @@ h1{
     padding-left: 60px;
 }
 
-.formulario {
-    font-family: "open";
-    flex: 1;
-    margin-right: 20px;
-   
-}
 
-.formulario label {
-    padding-top: 10px;
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 5px;
-    display: block;
-}
-.formulario input[type="email"],
-.formulario input[type="tel"],
-.formulario textarea{
-   
-    width: 250px;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-
-}
-
-.formulario input[type="text"],
-.formulario input[type="file"],
-.formulario textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 30px;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.formulario button {
-    background-color: white;
-    color: black;
-    padding: 10px;
-    width: 100px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    border: solid black 1px;
-    transition: color 0.4s ease-in-out;
-}
-
-.formulario button:hover {
-    background-color: #3cefff;
-    transition: transform 0.45s ease-in-out;
-}
-
-
-.folha img{
-    padding-top: 100px;
-    padding-left: 40px;
-    width:340px;
-    transform: rotate(5deg);
-}
 footer{
     align-items: center;
     height: 200px;
@@ -283,5 +221,14 @@ footer{
 .fixo:hover{ 
     transform: scale(1.1);
 }
-
-
+.politica{
+    height: 20px;
+    background-color: #bcbcbc;
+    margin-bottom: 0%;
+}
+.poli{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 700px;
+}

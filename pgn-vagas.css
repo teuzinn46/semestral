@@ -6,6 +6,7 @@
 body {
     overflow-x: hidden;
 }
+
 @font-face {
     font-family: "open";
     src: url(fonte/OpenSans-SemiBold.ttf);
@@ -205,6 +206,17 @@ footer .t{
 }
 .fixo:hover{ 
     transform: scale(1.1);
+}
+.politica{
+    height: 20px;
+    background-color: #bcbcbc;
+    margin-bottom: 0%;
+}
+.poli{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 700px;
 }
   
    
