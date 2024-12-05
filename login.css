@@ -79,7 +79,7 @@
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     width: 500px;
-    height: 350px;
+    height: 370px;
     text-align: center;
     justify-content: center;
     margin-top: 190px;
@@ -160,4 +160,8 @@ button:hover {
     font-family: "bebas";
     font-size: 25px;
 }
-
+.volt .reg{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}

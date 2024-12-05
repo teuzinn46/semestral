@@ -49,14 +49,14 @@ body{
   }
   .pgn-clique img{
       width: 120px;
-      height: 120px;
-      margin-left: 1470px;
+      height: 140px;
+      margin-left: 1500px;
       margin-top: 50px;
   }
   .imagemL{
     width: 1000px;
     height: 100px;
-    padding-left: 870px;
+    padding-left: 880px;
   }
   input{
     padding-left: 5px;

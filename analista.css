@@ -38,9 +38,9 @@ header{
 }
 .pgn-clique img{
     width: 120px;
-    height: 120px;
+    height: 140px;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 35px;
 }
     
 nav{
@@ -212,7 +212,7 @@ footer{
     width: 45px;
     height: 45px;
     margin-top: 20px;
-    margin-left: 1625px;
+    margin-left: 1455px;
     margin-right: 50px;
     position: fixed;
     transition: transform 0.5s ease;
